@@ -111,7 +111,7 @@ function multiplyArray(multArr) {
   console.log(string);
   return [product,string];
 
-}    
+}
 
 // // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
