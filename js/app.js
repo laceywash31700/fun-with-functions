@@ -108,13 +108,13 @@ function multiplyArray(multArr) {
   let product = multiply(multiply(multArr[0],multArr[1])[0],multArr[2])[0];
   console.log(product);
   let string = `The numbers ${multArr} have a product of ${product}.`;
-  console.log(string);
   return [product,string];
-
 }
 
+
 // // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
+// Here is the test for multiplyArray(); uncomment it to run it;
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
